@@ -31,6 +31,7 @@ def launch_browser():
             except NoSuchElementException:
                 sleep(2)
 
+
 #initialize selenium browser
 try:
     launch_browser()
